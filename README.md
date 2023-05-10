@@ -13,3 +13,4 @@
 # Colaboradores:
 -Colaborador A: Lucca Manfredotti
 -Colaborador B: Alvaro Serrano
+-Hemos subido todo en la rama master
