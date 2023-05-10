@@ -1,5 +1,6 @@
 package ejercicio;
 
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
@@ -47,8 +48,13 @@ class TablaEnterosTest {
 	}
 
 	@Test
-	void testPosicionTabla() {
-		fail("Not yet implemented");
+	void testPosicionTabla1() {
+		assertEquals(2, tabla.posicionTabla(3));	
+	}
+	
+	@Test
+	void testPosicionTabla2() {
+		assertThrows(Exception.class, () ->  {tabla.posicionTabla(999);});
 	}
 
 }
